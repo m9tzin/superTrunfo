@@ -1,11 +1,11 @@
-## Super Trunfo
+#Super Trunfo
 Breve início sobre o famoso jogo de cartas Super Trunfo.
 
 Neste exercício foi o início da implementação de algumas classes para o projeto final do curso de Programação Orientada a Objetos. 
 
 Na classe Carta, temos uma primeira versão, O método toString() deve mostrar o código seguido do nome, concatenados por "| ". Na classe Jogador, o monte deverá ser inicializado na distribuição.
 
-# Regras para os métodos da classe Baralho:
+## Regras para os métodos da classe Baralho:
 
 ● Baralho(tema: String) - construtor que serve para configurar o tema do baralho;
 
