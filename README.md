@@ -23,24 +23,5 @@ preenchidos removendo-se as cartas do Baralho atual. A distribuição deve ser f
 alternando-se uma carta para cada monte, como se estivesse sendo feita em uma mesa de
 cartas. Ao final da rotina, o Baralho estará vazio;
 
-A classe principal foi pré-definida:
-public class Principal {
-public static void main(String[] args) {
-String tema = "Naruto" ; // Insira aqui um tema de sua preferência.
-Jogador jogador1 = new Jogador("Aaaa");
-Jogador jogador2 = new Jogador("Bbbb");
-Baralho superTrunfo = new Baralho(tema);
-System.out .println("Baralho carregado com o tema " + tema + ":");
-superTrunfo. carregar ();
-superTrunfo. listarCartas ();
-System.out .println("\nBaralho embaralhado:" );
-superTrunfo. embaralhar ();
-superTrunfo. listarCartas ();
-superTrunfo. distribuir ( new Jogador[]{ jogador1, jogador2 });
-System.out .println("\nMonte do primeiro jogador:" );
-jogador1. getMonte ().listarCartas ();
-System.out .println("\nRetirando a carta do topo do monte do primeiro
-jogador:" );
-System.out .println(jogador1. getMonte ().pegarDoTopo ());
-}
-} 6
+
+
