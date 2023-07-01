@@ -1,4 +1,4 @@
-#Super Trunfo
+# SuperTrunfo
 Breve início sobre o famoso jogo de cartas Super Trunfo.
 
 Neste exercício foi o início da implementação de algumas classes para o projeto final do curso de Programação Orientada a Objetos. 
