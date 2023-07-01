@@ -9,11 +9,11 @@ Na classe Carta, temos uma primeira versão, O método toString() deve mostrar o
 
 ● Baralho(tema: String) - construtor que serve para configurar o tema do baralho;
 
-● embaralhar () - embaralhar as Cartas usando o Collections .shuffle();
+● embaralhar() - embaralhar as Cartas usando o Collections .shuffle();
 
-● listarCartas () - Um simples atalho para System.out .println(this);
+● listarCartas() - Um simples atalho para System.out .println(this);
 
-● pegarDoTopo (): Carta - método que verifica se ainda há cartas em um Baralho e, se houver, retira a carta do topo.
+● pegarDoTopo(): Carta - método que verifica se ainda há cartas em um Baralho e, se houver, retira a carta do topo.
 
 ● carregar() - responsável por adicionar (this.add) os objetos Cartas, que devem ser
 
